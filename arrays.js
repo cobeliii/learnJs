@@ -14,12 +14,17 @@ for(let i = 0; i < b.length; i++){
     b[i] = i + 1;
 }
 
-for(let i = 0; i < b.length; i++){
-   console.log(b[i]);
-}
+// for(let i = 0; i < b.length; i++){
+//    console.log(b[i]);
+// }
 
 a.push(4)
 
 console.log("a[0] content is " + (a[0] + b[0]))
 
 //joining two arrays
+const e = a.concat(b)
+
+for(let i = 0; i < b.length; i++){
+    console.log(e[i]);
+ }
